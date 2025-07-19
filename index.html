@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSRTC BUS PASS APPLICATION</title>
+</head>
+<body>
+   <center><img src="https://www.tgsrtc.telangana.gov.in/tsrtc-logo-compressed-image@5x.webp"  width="100px"></center>
+   <h2 style="text-align: center;background-color:  blue; padding:10px;">TELANGANA STATE ROAD TRANSPORT CORPORATION</h2>
+   <h3 style="text-align: center;">GENERAL BUS PASS APPLICATION</h3>
+   <form>
+    <fieldset>
+        <legend><strong>Application Details</strong></legend>
+        Name*:<input type="text" name="name"><br><br>
+        Father's/Guardian's Name *:<input type="text" name="guardian"><br><br>
+      Date of Birth (dd/mm/yyyy) *: <input type="date" name="dob"><br><br>
+
+      Age As On: 
+      <input type="number" name="age_years" placeholder="Years"> 
+      <input type="number" name="age_months" placeholder="Months"> 
+      <input type="number" name="age_days" placeholder="Days"><br><br>
+
+      Gender *: 
+      <input type="radio" name="gender" value="Female"> Female 
+      <input type="radio" name="gender" value="Male"> Male<br><br>
+
+       Aadhaar No: <input type="text" name="aadhaar"><br><br>
+      WhatsApp No: <input type="text" name="whatsapp"><br><br>
+      Email ID *: <input type="email" name="email"><br><br>
+      Photo: <input type="file" name="photo"><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend><strong>Residential Address Details</strong></legend>
+
+      Applicant's Address: <input type="text" name="address"><br><br>
+
+      District *: 
+      <select name="district">
+        <option>--Select--</option>
+      </select><br><br>
+
+      Mandal *: 
+      <select name="mandal">
+        <option>--Select--</option>
+      </select><br><br>
+
+       Village *: 
+      <select name="village">
+        <option>--Select--</option>
+      </select><br><br>
+
+      Pincode: <input type="text" name="pincode"><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend><strong>Pass Type Details</strong></legend>
+
+      District *: 
+      <select name="pass_district">
+        <option>--Select--</option>
+      </select><br><br>
+
+      Pass Type *: 
+      <select name="pass_type">
+        <option>--Select--</option>
+      </select><br><br>
+    </fieldset>
+      <fieldset>
+      <legend><strong>Mode of Payment & Pass Collection</strong></legend>
+
+      Payment Mode *: 
+      <select name="payment_mode">
+        <option>Select Payment Mode</option>
+      </select><br><br>
+
+      Center at which you want to Collect Pass *: 
+      <select name="collection_center">
+        <option>--Select--</option>
+      </select><br><br>
+    </fieldset>
+
+    <center><p style="background-color: red; color: black;width: 100px;text-align: center;font-size: 18px;">
+        JCFOpT
+    </p></center>
+    <center><input type="text" name="captcha" placeholder="Enter Captcha"><br><br></center>
+    <center><input type="submit" value="submit" style="background-color: blueviolet; color: black;padding: 10px 20px;border: none;"></center>
+    </form>
+
+</body>
+</html>
